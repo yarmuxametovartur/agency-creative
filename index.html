@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agency Creative</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Модальное окно с заявкой -->
+    <div id="modal" class="modal-window">
+        <div class="modal-window-dialog">
+            <button id="close" class="modal-window-dialog-close">&times;</button>
+            <h4 class="modal-window-header">Fill out the form below and we will call you back!</h4>
+            <form action="#" id="modal-window-form" class="main-calc-form modal-window-form main-form">
+                <input class="modal-window-form-input form-input" name="username" type="text" placeholder="Name">
+                <input class="modal-window-form-input form-input phone" name="phone" type="tel"
+                    placeholder="Telephone number">
+                <button class="modal-window-form-btn outline-btn btn btn-outline-primary">Send</button>
+                <div class="container">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <nav id="home" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a href="#"><img src="./src/img/nav/logo.png" alt="Agency Creative"></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                </ul>
+                <button id="nav-call-btn" type="button" class="outline-btn btn btn-outline-primary">Contact us</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <img class="bc-1" src="./src/img/hero/blue-circle.png" alt="">
+            <img class="bc-2" src="./src/img/hero/blue-circle.png" alt="">
+            <img class="rc-1" src="./src/img/hero/red-circle.png" alt="">
+            <img class="rc-2" src="./src/img/hero/red-circle.png" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="hero-header">Make your dream <br>
+                            business goal come true
+                        </h1>
+                        <span class="hero-text">
+                            when you need us for improve your business,<br>
+                            then come with us to help your business have reach it, you just sit and feel that goal
+                        </span>
+                        <div>
+                            <button id="start-project-btn" class="fill-btn btn btn-primary me-md-2" type="button">Start Project</button>
+                        </div>
+                        <img class="hero-img" src="./src/img/hero/hero-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="headers">
+                            <p class="section-header">About Us</p>
+                            <p class="section-underheader">Our Teammate</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <img class="about-img" src="./src/img/about/about-img.png" alt="">
+                                <img class="od" src="./src/img/about/od.png" alt="">
+                                <img class="pd" src="./src/img/about/pd.png" alt="">
+                            </div>
+                            <div class="col-xl-6">
+                                <p class="section-desc">
+                                    We move with make a Creative Strategy for help your business goal, we help to
+                                    improve your income by a services we have. make your content look interesting and
+                                    make people look for your business
+                                </p>
+                                <p class="section-desc">
+                                    We move with make a Creative Strategy for help your business goal, we help to
+                                    improve your income by a services we have. make your content look interesting and
+                                    make people look for your business
+                                </p>
+                                <form action="https://youtu.be/k5gfl1dDWBY" target="_blank">
+                                    <button class="outline-btn btn btn-outline-primary"><img
+                                            src="./src/img/about/play.svg" alt="">&nbsp;&nbsp;About Us</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <p class="section-header">Our Services</p>
+                        <p class="section-underheader">Perfect and Fast<br>Movement</p>
+                        <p class="section-desc">
+                            We move with make a Creative Strategy for help your business goal, we help to
+                            improve your income by a services we have. make your content look interesting and
+                            make people look for your business
+                        </p>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="coontainer">
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <div class="services-card services-card-right">
+                                        <img class="services-card-img" src="./src/img/services/monitor.png" alt="">
+                                        <p class="services-card-desc">Social Media <br> Management</p>
+                                    </div>
+                                    <div class="services-card services-card-right">
+                                        <img class="services-card-img" src="./src/img/services/design.png" alt="">
+                                        <p class="services-card-desc">Design</p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="services-card">
+                                        <img class="services-card-img" src="./src/img/services/setting.png" alt="">
+                                        <p class="services-card-desc">Search Engine <br> Opimization</p>
+                                    </div>
+                                    <div class="services-card">
+                                        <img class="services-card-img" src="./src/img/services/ads.png" alt="">
+                                        <p class="services-card-desc">Ads</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="headers">
+                <p class="section-header">Our Portfolio</p>
+                <p class="section-underheader">What do we do</p>
+                <p class="section-desc">
+                    all projects that we have already done , proven can help to use more <br> comfortable, then can used
+                    by client from our business
+                </p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="projects-container col-xl-4">
+                        <img class="projects-img" src="./src/img/projects/1.png" alt="">
+                        <span class="projects-img-label">Design Byte App</span>
+                    </div>
+                    <div class="projects-container col-xl-4">
+                        <img class="projects-img" src="./src/img/projects/2.png" alt="">
+                        <span class="projects-img-label">Cloud App</span>
+                    </div>
+                    <div class="projects-container col-xl-4">
+                        <img class="projects-img" src="./src/img/projects/3.png" alt="">
+                        <span class="projects-img-label">Design Furniture App</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <button class="outline-btn btn btn-outline-primary">See All Portfolio</button>
+                    </div>
+                </div>
+            </div>
+            <img class="pd1" src="./src/img/projects/pd.png" alt="">
+        </section>
+
+        <section class="feedback">
+            <div class="headers">
+                <p class="section-header">Testimonial</p>
+                <p class="section-underheader">People Talk about us</p>
+            </div>
+            <div class="feedback-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="feedback-container col-xl-4">
+                            <img class="feedabcak-avatar" src="./src/img/feedback/user_avatar.png" alt="">
+                            <span class="feedback-name">Angel Rose</span>
+                            <p class="feedback-position"><br>Creative Manager</p>
+                            <p class="feedback-text">
+                                There are many variations passages of Lorem Ipsum majority some by words which don't
+                                look .
+                            </p>
+                        </div>
+                        <div class="feedback-container col-xl-4">
+                            <img class="feedabcak-avatar" src="./src/img/feedback/user_avatar.png" alt="">
+                            <span class="feedback-name">Angel Rose</span>
+                            <p class="feedback-position"><br>Creative Manager</p>
+                            <p class="feedback-text">
+                                There are many variations passages of Lorem Ipsum majority some by words which don't
+                                look .
+                            </p>
+                        </div>
+                        <div class="feedback-container col-xl-4">
+                            <img class="feedabcak-avatar" src="./src/img/feedback/user_avatar.png" alt="">
+                            <span class="feedback-name">Angel Rose</span>
+                            <p class="feedback-position"><br>Creative Manager</p>
+                            <p class="feedback-text">
+                                There are many variations passages of Lorem Ipsum majority some by words which don't
+                                look .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="collaborate" class="collaborate">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <p class="section-underheader">Interesting Collaboration <br> With Us?</p>
+                        <p class="section-desc">
+                            Help you to reach your business goal
+                        </p>
+                        <button id="get-started-btn" class="fill-btn btn btn-primary me-md-2" type="button">Get Started</button>
+
+                    </div>
+                    <div class="col-xl-6">
+                        <img class="collaborate-img1" src="./src/img/collaborate/photo2.png" alt="">
+                        <img class="collaborate-img2" src="./src/img/collaborate/photo1.png" alt="">
+                        <img class="collaborate-od" src="./src/img/collaborate/od.png" alt="">
+                        <img class="collaborate-bd" src="./src/img/collaborate/bd.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 ">
+                    <a href="#"><img src="./src/img/footer/footer-logo.png" alt="Agency Creative"></a>
+                </div>
+                <div class="col-xl-2">
+                    <p class="footer-section-header">Terms & policies</p>
+                    <a href="#" class="footer-section-text">Terms of Service</a>
+                    <a href="#" class="footer-section-text">Privacy Policy</a>
+                </div>
+                <div class="col-xl-2">
+                    <p class="footer-section-header">Company</p>
+                    <a href="#home" class="footer-section-text">Home</a>
+                    <a href="#about" class="footer-section-text">About Us</a>
+                    <a href="#collaborate" class="footer-section-text">Contact Us</a>
+                </div>
+                <div class="col-xl-2">
+                    <p class="footer-section-header">Contact</p>
+                    <a href="tel:(+62) 893912392190" class="footer-section-text">(+62) 893912392190</a>
+                    <a href="mailto:agecnycr@gmail.com" class="footer-section-text">agecnycr@gmail.com</a>
+                </div>
+                <div class="col-xl-3">
+                    <p class="footer-section-header">Location</p>
+                    <p class="footer-section-text">PT Osiris Real Estate Internasional</p>
+                    <p class="footer-section-text">Jl. KH. Wahid Hasyim Kel No.10D</p>
+                    <p class="footer-section-text">Jakarta, Indonesia</p>
+                    <a href="mailto:team@OsirisRealEstate.com" class="footer-section-text">team@OsirisRealEstate.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="social">
+                    <a href="#"><img src="./src/img/footer/facebook.png" alt=""></a>
+                    <a href="#"><img src="./src/img/footer/inst.png" alt=""></a>
+                    <a href="#"><img src="./src/img/footer/linkedin.png" alt=""></a>
+                    <a href="#"><img src="./src/img/footer/mail.png" alt=""></a>
+                    <a href="#"><img src="./src/img/footer/twitter.png" alt=""></a>
+
+                </div>
+                <hr>
+                <p class="copyright">Copyright @ 2023 Agency Creative. All Right Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+<!-- Modal window -->
+<script src="./src/js/main.js"></script>
+
+</body>
+
+</html>
